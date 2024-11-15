@@ -1,0 +1,40 @@
+# Device Configuration
+device: 'cuda'             # Use 'cuda' for GPU or 'cpu' for CPU
+amp: True                  # Automatic Mixed Precision
+pin_memory: False           # Dataloader pin_memory
+non_blocking: True         # Non-blocking data transfers
+prefetch: False            # Use prefetch in data loading
+
+# Checkpoint and Logging Paths
+checkpoint_load:           # Path to load a checkpoint (if any)
+checkpoint_save:           # Path to save checkpoints
+log:                       # Path for logging
+
+# Dataset Configuration
+dataset_path: './data'     # Path to the dataset directory
+dataset: 'cifar100'         # Dataset name ('cifar10', 'cifar100', 'gtsrb', 'tiny')
+
+# Training Hyperparameters
+epochs: 10                # Total number of training epochs
+batch_size: 256            # Batch size for training
+num_workers: 16             # Number of workers for data loading
+lr: 1.0e-2                   # Learning rate
+lr_scheduler: 'CosineAnnealingLR'  # Learning rate scheduler
+model: 'preactresnet18'    # Model architecture
+wd: 5.0e-4                 # Weight decay (L2 regularization)
+frequency_save: 0          # Frequency of saving checkpoints (0 means never)
+
+# Random Seed for Reproducibility
+random_seed: 0             # Random seed for reproducibility
+
+# Knowledge Distillation Specific Parameters
+temperature: 3.0           # Temperature parameter for distillation
+alpha: 0.0005              # Weight for kl
+beta: 0.025                # Weight for unlearn
+sigma1: 0.2
+sigma2: 0.1
+tolerance: 1.0
+
+# Other Parameters
+result_file:
+num_classes: 100             # Number of classes in the dataset

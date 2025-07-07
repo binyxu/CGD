@@ -191,16 +191,16 @@ CGD
 If you find this work useful in your research, please consider citing:
 
 ```bibtex
-@inproceedings{xxx,
+@inproceedings{xu2025clip,
   title={CLIP-Guided Backdoor Defense via Entropy-Based Data Separation},
-  author={xxx},
-  booktitle={xxx},
+  author={Xu, Binyan and Yang, Fan and Dai, Xilin and Tang, Di and Zhang, Kehuan},
+  booktitle={Proceedings of the 33nd ACM International Conference on Multimedia},
   year={2025}
 }
 ```
 
 ---
 
-For any questions or issues, please open an issue in this repository or contact us at [xxx@xxx.com](mailto:xxx@xxx.com).
+For any questions or issues, please open an issue in this repository or contact us at [binyxu@ie.cuhk.edu.hk](mailto:binyxu@ie.cuhk.edu.hk).
 
 Thank you for your interest in our work!

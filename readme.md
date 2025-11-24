@@ -192,9 +192,10 @@ If you find this work useful in your research, please consider citing:
 
 ```bibtex
 @inproceedings{xu2025clip,
-  title={CLIP-Guided Backdoor Defense via Entropy-Based Data Separation},
+  title={CLIP-Guided Backdoor Defense through Entropy-Based Poisoned Dataset Separation},
   author={Xu, Binyan and Yang, Fan and Dai, Xilin and Tang, Di and Zhang, Kehuan},
-  booktitle={Proceedings of the 33nd ACM International Conference on Multimedia},
+  booktitle={Proceedings of the 33rd ACM International Conference on Multimedia},
+  pages={7415--7423},
   year={2025}
 }
 ```
